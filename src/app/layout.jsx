@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "EduNova - Accueil",
+  title: "EduPro - Accueil",
   description: "L'université numérique qui donne envie d'apprendre.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-gray-50`} >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`} >
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
